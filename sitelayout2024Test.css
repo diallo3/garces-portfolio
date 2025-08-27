@@ -18,17 +18,29 @@ h1.head{
 	display: inline-block;
 }
 .grid_2{
-	
 	color: #ffffff;
 	text-decoration: none;
 	position: fixed;
 	padding-left: 15px;
+}
+.grid_5{
+	display:none;
+	z-index:-10;
+	background-color:#6a13cf;
+	top: 220px;
+	padding-left: 160px;
+	position: fixed;
+	color:black;
 }
 .button1{
 	top: 160px;
 }
 .button2{
 	top: 220px;
+	width:100px;
+}
+.grid_2:hover .grid_5{
+	display: block;
 }
 .button3{
 	top: 280px;
